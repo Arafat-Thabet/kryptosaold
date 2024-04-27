@@ -20,6 +20,7 @@
             justify-content: center;
             min-height: 100vh;
             align-items: center;
+            flex-direction: column;
         }
 
         h1 {
@@ -27,12 +28,19 @@
             font-family: sans-serif;
             color: #fff;
         }
+        a {
+            cursor: pointer;
+            text-decoration: none;
+        }
     </style>
+    
+    <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 
 <body>
     <div class="container">
         <h1>Comming Soon!</h1>
+        <a href="{{ url('') }}" class="yellow-btn text-decoration-none">Back to home</a>
     </div>
 </body>
 
