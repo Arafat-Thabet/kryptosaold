@@ -108,7 +108,7 @@
                         <div class="d-flex align-items-center">
                             <div class="d-flex align-items-center">
                                 <a class="text-decoration-none px-1"
-                                    href="https://apps.apple.com/gb/app/koinkoin-exchange/id1556014433" target="_blank">
+                                    href="{{ route('comming-soon') }}" target="_blank">
                                     <svg width="30" height="30" viewBox="0 0 200 200" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -121,7 +121,7 @@
 
                                 </a>
                                 <a class="text-decoration-none px-1" target="_blank"
-                                    href="https://play.google.com/store/apps/details?id=com.koinkoin&pli=1">
+                                    href="{{ route('comming-soon') }}">
                                     <svg width="30" height="30" viewBox="0 0 200 200" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -319,7 +319,7 @@
                             <p class="text-center normal-para fw-600 mt-4 mb-0 opacity-unset">Security First | Powered
                                 for A
                                 Borderless
-                                Africa
+                                KSA
                                 & A
                                 Borderless
                                 World.
@@ -684,19 +684,13 @@
                         <img class="w-100 px-3" src="./assets/images/carousel-img-1.png" alt="">
                     </div>
                     <div class="">
-                        <img class="w-100 px-3" src="./assets/images/carousel-img-2.png" alt="">
-                    </div>
-                    <div class="">
                         <img class="w-100 px-3" src="./assets/images/carousel-img-3.png" alt="">
                     </div>
                     <div class="">
-                        <img class="w-100 px-3" src="./assets/images/carousel-img-4.png" alt="">
+                        <img class="w-100 px-3" src="./assets/images/carousel-img-1.png" alt="">
                     </div>
                     <div class="">
-                        <img class="w-100 px-3" src="./assets/images/carousel-img-5.png" alt="">
-                    </div>
-                    <div>
-                        <img class="w-100 px-3" src="./assets/images/carousel-img-6.png" alt="">
+                        <img class="w-100 px-3" src="./assets/images/carousel-img-3.png" alt="">
                     </div>
                 </div>
                 <div>
@@ -974,7 +968,7 @@
                 <div class="col-lg-6 col-12 d-flex flex-column justify-content-center">
                     <h2 class="heading">
                         New beginnings borderless <span class="text-yellow">
-                            Africa
+                            KSA
                         </span>
                     </h2>
                     <p class="normal-para my-sm-4">
@@ -1420,9 +1414,9 @@
                             alt="">
                     </div>
                     <p class="normal-para my-4">
-                        KryptoSa is a African-focused digital assets exchange where fiat meets cryptocurrency. In a
+                        KryptoSa is a KSAn-focused digital assets exchange where fiat meets cryptocurrency. In a
                         post-Brexit and post-pandemic world, KryptoSa makes it easier to buy, sell and transfer digital
-                        assets across Africa, South East Asia, and Western Europe.
+                        assets across KSA, South East Asia, and Western Europe.
                     </p>
                     <p class="normal-para">
                         <a href="#" class="footer-link text-decoration-none">
