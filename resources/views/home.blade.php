@@ -241,7 +241,7 @@
                             <a class="nav-link nav-links" href="{{ url('/comming-soon') }}">Download</a>
                         </li>
                         <li class="nav-item me-lg-4 pe-lg-3">
-                            <a class="nav-link nav-links" href="{{ url('') }}">Login</a>
+                            <a class="nav-link nav-links" href="{{ url('/comming-soon') }}">Login</a>
                         </li>
                         <li class="nav-item  pe-lg-3">
                             <div onclick="myFunction()">
