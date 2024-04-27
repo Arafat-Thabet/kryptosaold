@@ -71,7 +71,7 @@
                                         </li>
                                         <li class="py-3 ">
 
-                                            <a href="https://www.blog.koinkoin.io/" class="overlay-links">Blog</a>
+                                            <a href="{{url('comming-soon')}}/" class="overlay-links">About US</a>
 
                                         </li>
                                         <li class="py-3 overflow-hidden">
@@ -235,7 +235,7 @@
                             <a class="nav-link nav-links" href="{{ url('/comming-soon') }}">Features</a>
                         </li>
                         <li class="nav-item me-lg-4 pe-lg-3">
-                            <a class="nav-link nav-links" href="{{ url('/comming-soon') }}">Blog</a>
+                            <a class="nav-link nav-links" href="{{ url('/comming-soon') }}">About US</a>
                         </li>
                         <li class="nav-item me-lg-4 pe-lg-3">
                             <a class="nav-link nav-links" href="{{ url('/comming-soon') }}">Download</a>
