@@ -290,7 +290,7 @@
                             </div>
                         </li>
                         <li class="nav-item ms-lg-3 mt-3 mt-lg-0 ">
-                            <a class="yellow-btn text-decoration-none" href="{{ url('') }}/">
+                            <a class="yellow-btn text-decoration-none" href="{{ url('signup') }}/">
                                 Sign up
                             </a>
 
@@ -1246,8 +1246,8 @@
                             </a>
                         </li>
                         <li class="my-2">
-                            <a class="footer-link" href="#">
-                                Register
+                            <a class="footer-link" href="{{ url('signup') }}">
+                                sign up
 
                             </a>
                         </li>
