@@ -20,11 +20,11 @@
 			<div class="agileits-top">
 				<form action="{{ route('signup') }}" method="POST">
 					@csrf
-					{{-- {{ csrf_field() }} --}}
-					<input class="text" type="text" name="first_name" placeholder="First name" required>
-					<input class="text email" type="text" name="last_name" placeholder="Last name" required>
-					<input class="text email" type="text" name="phone" placeholder="Phone" required>
-					<input class="text email" type="email" name="email" placeholder="Email" required>
+					<input class="text" type="text" name="first_name" placeholder="First name" value="{{ old('first_name') }}"  required>
+					<input class="text email" type="text" name="last_name" placeholder="Last name" value="{{ old('last_name') }}"  required>
+					<input class="text email" type="text" name="phone" placeholder="Phone" value="{{ old('phone') }}"  required>
+					<input class="text email" type="email" name="email" placeholder="Email" value="{{ old('email') }}"  required>
+					{!! $errors->first('email', '<p style="color: #7e0000;text-align: left;margin-top: -1.3em;margin-bottom: 1.3em;">:message</p>') !!}
 					{{-- <div class="wthree-text">
 						<label class="anim">
 							<input type="checkbox" class="checkbox" required="">
