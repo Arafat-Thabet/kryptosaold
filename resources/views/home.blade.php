@@ -290,7 +290,7 @@
                             </div>
                         </li>
                         <li class="nav-item ms-lg-3 mt-3 mt-lg-0 ">
-                            <a class="yellow-btn text-decoration-none" href="{{ url('signup') }}/">
+                            <a class="yellow-btn text-decoration-none" href="{{ url('signup') }}">
                                 Sign up
                             </a>
 
@@ -330,7 +330,7 @@
                                 technology
                             </p>
                             <div class="d-flex justify-content-center pt-3 mb-5">
-                                <a class="yellow-btn text-decoration-none" href="{{ url('') }}/">
+                                <a class="yellow-btn text-decoration-none" href="{{ url('signup') }}">
                                     Open Trading Account
                                 </a>
                             </div>
@@ -961,7 +961,7 @@
                         </div>
                     </div>
                     <div class="mt-4 text-center text-lg-start">
-                        <a class="blue-btn text-decoration-none" href="#">
+                        <a class="blue-btn text-decoration-none" href="{{ url('signup') }}">
                             Open An Account
                         </a>
                     </div>
@@ -984,7 +984,7 @@
                         blockchain technology
                     </p>
                     <div class="mt-lg-5 mb-4 mt-3">
-                        <a href="#" class="blue-btn text-decoration-none">
+                        <a href="{{ url('signup') }}" class="blue-btn text-decoration-none">
                             Open An Account
                         </a>
                     </div>
