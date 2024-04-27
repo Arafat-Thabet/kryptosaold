@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 Route::view('/','home');
 Route::view('/comming-soon','soon')->name('comming-soon');
 Route::view('signup','signup');
-Route::view('feature','feature');
+Route::view('features','features');
 
 Route::post('/signup', [RegisterController::class, 'store'])->name('signup');
 

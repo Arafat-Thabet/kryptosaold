@@ -15,9 +15,9 @@ class RegisterController extends Controller
         ]);
 
         // Create a new register instance
-        $register = Register::create($validatedData);
+        Register::create($validatedData);
 
         // Optionally, you can do something after registration, like redirecting
-        return redirect('/')->with('success', 'Registration successful!');
+        return redirect('/')->with('success', 'Thank you for your registration. We will be in touch soon');
     }
 }

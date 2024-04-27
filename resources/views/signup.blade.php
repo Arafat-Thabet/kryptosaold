@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+
+<link href="{{ asset('') }}assets/styles/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./assets/styles/style.css">
+
 <!-- Custom Theme files -->
 <link href="{{ asset('assets/styles/signup.css') }}" rel="stylesheet" type="text/css" media="all" />
 <!-- //Custom Theme files -->
@@ -13,6 +18,9 @@
 <!-- //web font -->
 </head>
 <body>
+
+	@include('navbar')
+
 	<!-- main -->
 	<div class="main-w3layouts wrapper">
 		<h1>SignUp</h1>
@@ -24,7 +32,7 @@
 					<input class="text email" type="text" name="last_name" placeholder="Last name" value="{{ old('last_name') }}"  required>
 					<input class="text email" type="text" name="phone" placeholder="Phone" value="{{ old('phone') }}"  required>
 					<input class="text email" type="email" name="email" placeholder="Email" value="{{ old('email') }}"  required>
-					{!! $errors->first('email', '<p style="color: #7e0000;text-align: left;margin-top: -1.3em;margin-bottom: 1.3em;">:message</p>') !!}
+					{!! $errors->first('email', '<p style="color: #ffbb28;text-align: left;margin-top: -1.3em;margin-bottom: 1.3em;">:message</p>') !!}
 					{{-- <div class="wthree-text">
 						<label class="anim">
 							<input type="checkbox" class="checkbox" required="">
