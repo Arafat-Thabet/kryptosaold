@@ -71,7 +71,7 @@
                                         </li>
                                         <li class="py-3 ">
 
-                                            <a href="{{url('comming-soon')}}/" class="overlay-links">About US</a>
+                                            <a href="{{ url('comming-soon') }}/" class="overlay-links">About US</a>
 
                                         </li>
                                         <li class="py-3 overflow-hidden">
@@ -657,12 +657,10 @@
                             allows you to make instant deposits and withdrawals, you can also use the wallet QR payment
                             process to send over 50 cryptocurrencies as a means of payment where needed..</p>
                         <div class=" ">
-                            <a href="#"><img
-                                    class="pe-2 mobile-app-img js-tilt" src="./assets/images/app-store.png"
-                                    alt=""></a>
-                            <a href="#"><img
-                                    class="mobile-app-img js-tilt" src="./assets/images/play-store.png"
-                                    alt=""></a>
+                            <a href="#"><img class="pe-2 mobile-app-img js-tilt"
+                                    src="./assets/images/app-store.png" alt=""></a>
+                            <a href="#"><img class="mobile-app-img js-tilt"
+                                    src="./assets/images/play-store.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -1102,25 +1100,28 @@
                     <h3 class="heading mb-4 pt-3 text-center text-lg-start">
                         Contact Us
                     </h3>
-                    <form action="mailto:hamzawemughales@gmail.com" method="post" enctype="text/plain">
+
+                    <div id="send-info"></div>
+
+                    <form id="contact-us-form" method="post" enctype="text/plain">
                         <div>
-                            <input class="normal-para contact-input" type="text" name="Name" id="name"
+                            <input class="normal-para contact-input" type="text" name="name" id="name"
                                 required placeholder="Name" />
                             <br>
-                            <input class="normal-para contact-input" type="email" name="Email" id="email"
+                            <input class="normal-para contact-input" type="email" name="email" id="email"
                                 required placeholder="Email Address" />
                             <br>
-                            <input class="normal-para contact-input" type="number" name="Contact-us" id="subject"
-                                required placeholder="Contact Number" />
+                            <input class="normal-para contact-input" type="text" name="subject" id="subject"
+                                required placeholder="Subject" />
                             <br>
-                            <textarea class="contact-input normal-para" name="Msg" id="smg" cols="30" rows="3"
-                                placeholder="Message"></textarea>
+                            <textarea class="contact-input normal-para" name="msg" id="msg" cols="30" rows="3"
+                                placeholder="Message" required></textarea>
                         </div>
                         <div class="mt-4 text-center text-lg-start d-sm-flex justify-content-between">
-                            <button type="submit" class="text-decoration-none blue-btn">
+                            <button type="submit" class="text-decoration-none blue-btn" id="send-btn">
                                 Send Message
                             </button>
-                            <button type="reset" class="text-decoration-none blue-btn mt-sm-0 mt-3">
+                            <button type="reset" class="text-decoration-none blue-btn mt-sm-0 mt-3" id="reset-btn">
                                 Reset
                             </button>
 
@@ -1583,6 +1584,69 @@
 
     {{-- Chat popup  --}}
     {{-- <script src="//code.tidio.co/5ufndcjekwi1ilypqm3ctzqoamall6aa.js" async></script> --}}
+
+    <script>
+        $(document).ready(function() {
+            $("#contact-us-form").submit(function(e) {
+                e.preventDefault();
+
+                $('#send-info').html('');
+                var obj = {
+                    _token: "{{ csrf_token() }}",
+                    name: $("#name").val(),
+                    email: $("#email").val(),
+                    subject: $("#subject").val(),
+                    msg: $("#msg").val(),
+                };
+
+                $("#send-btn").prop("disabled", true);
+                $("#send-btn").html(
+                    '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> <span class="">Loading...</span>'
+                );
+
+                var url = "{{ route('contact') }}";
+                $.ajax({
+                    url: url,
+                    data: obj,
+                    type: 'POST',
+                    dataType: 'json',
+                    success: function(data) {
+                        //data after responed , textStatus and jqXHR is object from XHHTTP class
+                        if (data.error == true) {
+                            $('#send-info').html(
+                                '<div class="alert alert-danger alert-dismissible fade show" role="alert">' +
+                                ' <div> ' + data.message + '</div>' +
+                                '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">' +
+                                '</button></div>');
+                        } else {
+                            $('#send-info').html(
+                                '<div class="alert alert-success alert-dismissible fade show bg-success text-white" role="alert">' +
+                                ' <div> ' + data.message + '</div>' +
+                                '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">' +
+                                '</button></div>');
+                            $("#reset-btn").trigger('click');
+                        }
+
+
+                        $("#send-btn").prop("disabled", false);
+                        $("#send-btn").html('Send message');
+                    },
+                    statusCode: {
+                        404: function() {
+                            $('#send-info').html(
+                                '<div class="alert alert-danger" style="margin-top:50px">Error Occur try again</div>'
+                            );
+                        },
+                        500: function() {
+                            $('#send-info').html(
+                                '<div class="alert alert-danger" style="margin-top:50px">Error Occur try again </div>'
+                            );
+                        }
+                    }
+                });
+            });
+        });
+    </script>
 
 </body>
 
