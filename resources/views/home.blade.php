@@ -229,19 +229,19 @@
                     <ul class="navbar-nav ms-auto new align-items-center">
 
                         <li class="nav-item me-lg-4 pe-lg-3">
-                            <a class="nav-link nav-links actives" href="{{ url('') }}/">Home</a>
+                            <a class="nav-link nav-links actives" href="#">Home</a>
                         </li>
                         <li class="nav-item me-lg-4 pe-lg-3">
-                            <a class="nav-link nav-links" href="{{ url('') }}/">Features</a>
+                            <a class="nav-link nav-links" href="{{ url('/comming-soon') }}">Features</a>
                         </li>
                         <li class="nav-item me-lg-4 pe-lg-3">
-                            <a class="nav-link nav-links" href="https://blog.koinkoin.io/">Blog</a>
+                            <a class="nav-link nav-links" href="{{ url('/comming-soon') }}">Blog</a>
                         </li>
                         <li class="nav-item me-lg-4 pe-lg-3">
-                            <a class="nav-link nav-links" href="{{ url('') }}/">Download</a>
+                            <a class="nav-link nav-links" href="{{ url('/comming-soon') }}">Download</a>
                         </li>
                         <li class="nav-item me-lg-4 pe-lg-3">
-                            <a class="nav-link nav-links" href="{{ url('') }}/login">Login</a>
+                            <a class="nav-link nav-links" href="{{ url('') }}">Login</a>
                         </li>
                         <li class="nav-item  pe-lg-3">
                             <div onclick="myFunction()">
@@ -418,7 +418,7 @@
                                 start trading immediately. "Easy"</p>
                             <div>
 
-                                <a class="blue-btn text-decoration-none" href="{{ url('') }}/">
+                                <a class="blue-btn text-decoration-none" href="#">
                                     Learn More
                                 </a>
                             </div>
@@ -441,7 +441,7 @@
                                 and you will be able to execute trades immediately at market price. You can also place
                                 limit orders and/or stop orders on any of the pairs on offer.</p>
                             <div>
-                                <a class="blue-btn text-decoration-none" href="{{ url('') }}/">
+                                <a class="blue-btn text-decoration-none" href="#">
                                     Learn More
                                 </a>
                             </div>
@@ -463,7 +463,7 @@
                                 by
                                 simply swapping cash for crypto, crypto for crypto or crypto for cash.</p>
                             <div>
-                                <a class="blue-btn text-decoration-none" href="{{ url('') }}/">
+                                <a class="blue-btn text-decoration-none" href="#">
                                     Learn More
                                 </a>
                             </div>
@@ -486,7 +486,7 @@
                                 the wallet address details, memo if needed and amount you are sending. It is all very
                                 easy.</p>
                             <div>
-                                <a class="blue-btn text-decoration-none" href="{{ url('') }}/">
+                                <a class="blue-btn text-decoration-none" href="#">
                                     Learn More
                                 </a>
                             </div>
@@ -507,7 +507,7 @@
                             <p class="normal-para  mb-4 pb-3">Refer as many friends and colleagues you wish and earn up
                                 to 500USDT Weekly from transaction fees.</p>
                             <div>
-                                <a class="blue-btn text-decoration-none" href="{{ url('') }}/">
+                                <a class="blue-btn text-decoration-none" href="#">
                                     Learn More
                                 </a>
                             </div>
@@ -637,7 +637,7 @@
                             </p>
                         </div>
                         <div>
-                            <a class="yellow-btn text-decoration-none" href="{{ url('') }}/">
+                            <a class="yellow-btn text-decoration-none" href="#">
                                 Learn more
                             </a>
                         </div>
@@ -657,10 +657,10 @@
                             allows you to make instant deposits and withdrawals, you can also use the wallet QR payment
                             process to send over 50 cryptocurrencies as a means of payment where needed..</p>
                         <div class=" ">
-                            <a href="https://apps.apple.com/gb/app/koinkoin-exchange/id1556014433"><img
+                            <a href="#"><img
                                     class="pe-2 mobile-app-img js-tilt" src="./assets/images/app-store.png"
                                     alt=""></a>
-                            <a href="https://play.google.com/store/apps/details?id=com.koinkoin"><img
+                            <a href="#"><img
                                     class="mobile-app-img js-tilt" src="./assets/images/play-store.png"
                                     alt=""></a>
                         </div>
@@ -745,7 +745,7 @@
                         </div>
                         <div class="text-center">
                             <div class="mb-3 mt-3">
-                                <a class="blue-btn text-decoration-none" href="{{ url('') }}/">
+                                <a class="blue-btn text-decoration-none" href="#">
                                     Learn more
                                 </a>
                             </div>
@@ -772,7 +772,7 @@
                         <div class="text-center">
 
                             <div class="mb-3 mt-3 text-center">
-                                <a class="blue-btn text-decoration-none" href="{{ url('') }}/">
+                                <a class="blue-btn text-decoration-none" href="#">
                                     Learn more
                                 </a>
                             </div>
@@ -797,7 +797,7 @@
                         <div class="text-center">
 
                             <div class="mb-3 mt-3">
-                                <a class="blue-btn text-decoration-none" href="{{ url('') }}/">
+                                <a class="blue-btn text-decoration-none" href="#">
                                     Learn more
                                 </a>
                             </div>
@@ -961,7 +961,7 @@
                         </div>
                     </div>
                     <div class="mt-4 text-center text-lg-start">
-                        <a class="blue-btn text-decoration-none" href="{{ url('') }}/">
+                        <a class="blue-btn text-decoration-none" href="#">
                             Open An Account
                         </a>
                     </div>
@@ -984,7 +984,7 @@
                         blockchain technology
                     </p>
                     <div class="mt-lg-5 mb-4 mt-3">
-                        <a href="{{ url('') }}/" class="blue-btn text-decoration-none">
+                        <a href="#" class="blue-btn text-decoration-none">
                             Open An Account
                         </a>
                     </div>
@@ -1424,14 +1424,14 @@
                         assets across Africa, South East Asia, and Western Europe.
                     </p>
                     <p class="normal-para">
-                        <a href="./terms.html" class="footer-link text-decoration-none">
+                        <a href="#" class="footer-link text-decoration-none">
                             Terms of
                             Service</a>
                         |
-                        <a href="{{ url('') }}/privacy-policy.html" class="footer-link text-decoration-none">
+                        <a href="#" class="footer-link text-decoration-none">
                             Privacy Policy</a>
                         |
-                        <a href="./complaints.html" class="footer-link text-decoration-none">Complaints Policy</a>
+                        <a href="#" class="footer-link text-decoration-none">Complaints Policy</a>
                     </p>
                 </div>
             </div>
