@@ -105,10 +105,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   body {
     background: #76b852;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #239e76, #284f42);
-    background: -moz-linear-gradient(to top, #239e76, #284f42);
-    background: -o-linear-gradient(to top, #239e76, #284f42);
-    background: linear-gradient(to top, #239e76, #284f42);
+    background: -webkit-linear-gradient(to top, #0fd7ba, #000000);
+    background: -moz-linear-gradient(to top, #0fd7ba, #000000);
+    background: -o-linear-gradient(to top, #0fd7ba, #000000);
+    background: linear-gradient(to top, #0fd7ba, #000000);
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
@@ -203,14 +203,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   input[type="submit"] {
     font-size: .9em;
     color: #fff;
-    background: #04ac75;
+    background: #0ee9a2;
     outline: none;
-    border: 1px solid #04ac75;
+    border: 1px solid #0ee9a2;
     cursor: pointer;
     padding: 0.9em;
     -webkit-appearance: none;
     width: 100%;
     letter-spacing: 4px;
+    border-radius: 8px;
   }
   
   input[type="submit"]:hover {
@@ -219,7 +220,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     -o-transition: .5s all;
     -ms-transition: .5s all;
     transition: .5s all;
-    background: #08b87f;
+    background: #0dffb1;
   }
   
   .agileits-top p {
@@ -571,6 +572,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   
     .main-w3layouts {
       padding: 2em 0 1em;
+      padding-top: 100px;
     }
   }
   

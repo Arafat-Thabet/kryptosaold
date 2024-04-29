@@ -1455,10 +1455,6 @@ input[type="number"] {
     background: #888;
     visibility: hidden;
   }
-
-  .card-2 {
-    height: 400px;
-  }
 }
 
 @media (min-width: 992px) {
@@ -1507,6 +1503,8 @@ input[type="number"] {
 
   .hero {
     background-position-x: center;
+    margin-top: -35%;
+    height: 100%;
   }
 
   .card-1 {
@@ -1525,7 +1523,7 @@ input[type="number"] {
   .navbar-wrapper {
     position: fixed;
     top: 0;
-    background: transparent;
+    background: #000;
     width: 100%;
     z-index: 22;
     display: flex;

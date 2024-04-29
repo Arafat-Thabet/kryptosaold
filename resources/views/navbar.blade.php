@@ -50,12 +50,12 @@
             <div class="container ">
                 <div class="nav-quantum d-flex align-items-center justify-content-between">
                     <a class="navbar-brand" href="/">
-                        <img height="80" class="nav-logo" data-tilt src="./assets/images/logo00.png" alt="logo-img">
+                        <img height="50" class="nav-logo" data-tilt src="./assets/images/logo00.png" alt="logo-img">
                     </a>
 
                     <div class="d-flex align-items-center">
                         <div class="d-flex align-items-center">
-                            <a class="text-decoration-none px-1" href="{{ route('comming-soon') }}" target="_blank">
+                            <a class="text-decoration-none px-1" href="#">
                                 <svg width="30" height="30" viewBox="0 0 200 200" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -67,7 +67,7 @@
                                 </svg>
 
                             </a>
-                            <a class="text-decoration-none px-1" target="_blank" href="{{ route('comming-soon') }}">
+                            <a class="text-decoration-none px-1" href="#">
                                 <svg width="30" height="30" viewBox="0 0 200 200" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path

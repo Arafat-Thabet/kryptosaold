@@ -34,13 +34,10 @@
     <link href="{{ asset('') }}assets/styles/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- CAROUSEL-LINK -->
-    <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick-theme.min.css"
-        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.css"
-        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.css"/>
+
+    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css">
     <link rel="icon" type="image/x-icon" href="./logo.ico">
 
 
@@ -52,7 +49,8 @@
 
     <section class="bg-video-wrap hero position-relative">
         @if (session('success'))
-            <div class="alert alert-dismissible alert-success align-items-center container fade show w-50" style="z-index: 10;margin-top: 100px" role="alert">
+            <div class="alert alert-dismissible alert-success align-items-center container fade show w-50"
+                style="z-index: 10;margin-top: 100px" role="alert">
                 {{ session('success') }}
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
@@ -167,13 +165,8 @@
                                 You
                                 will be able to go to
                                 our wallets page (Click Wallet at the top), make a quick cash or crypto deposit and
-                                start trading immediately. "Easy"</p>
-                            <div>
-
-                                <a class="blue-btn text-decoration-none" href="#">
-                                    Learn More
-                                </a>
-                            </div>
+                                start trading immediately. "Easy"
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -191,12 +184,8 @@
                             <p class="normal-para  mb-4 pb-3">To get the best tradeable prices from over 40 exchanges
                                 for a variety of crypto/fiat pairs, go to our markets page (Click Pro Trade at the top)
                                 and you will be able to execute trades immediately at market price. You can also place
-                                limit orders and/or stop orders on any of the pairs on offer.</p>
-                            <div>
-                                <a class="blue-btn text-decoration-none" href="#">
-                                    Learn More
-                                </a>
-                            </div>
+                                limit orders and/or stop orders on any of the pairs on offer.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -213,12 +202,8 @@
                             <p class="heading"> <span class="text-yellow">Trade</span> Crypto</p>
                             <p class="normal-para  mb-4 pb-3">Simply make quick trades (Click Quick Trade at the top)
                                 by
-                                simply swapping cash for crypto, crypto for crypto or crypto for cash.</p>
-                            <div>
-                                <a class="blue-btn text-decoration-none" href="#">
-                                    Learn More
-                                </a>
-                            </div>
+                                simply swapping cash for crypto, crypto for crypto or crypto for cash.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -236,12 +221,8 @@
                             <p class="normal-para  mb-4 pb-3">To send crypto to your friends and loved ones, simply go
                                 back to the wallets page and hit withdraw next to the crypto you wish to send. Complete
                                 the wallet address details, memo if needed and amount you are sending. It is all very
-                                easy.</p>
-                            <div>
-                                <a class="blue-btn text-decoration-none" href="#">
-                                    Learn More
-                                </a>
-                            </div>
+                                easy.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -257,12 +238,8 @@
                             <p class="mb-0 step-1">Step-5</p>
                             <p class="heading"> <span class="text-yellow">Invite</span> Friend</p>
                             <p class="normal-para  mb-4 pb-3">Refer as many friends and colleagues you wish and earn up
-                                to 500USDT Weekly from transaction fees.</p>
-                            <div>
-                                <a class="blue-btn text-decoration-none" href="#">
-                                    Learn More
-                                </a>
-                            </div>
+                                to 500USDT Weekly from transaction fees.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -444,6 +421,12 @@
                     <div class="">
                         <img class="w-100 px-3" src="./assets/images/carousel-img-3.png" alt="">
                     </div>
+                    <div class="">
+                        <img class="w-100 px-3" src="./assets/images/carousel-img-1.png" alt="">
+                    </div>
+                    <div class="">
+                        <img class="w-100 px-3" src="./assets/images/carousel-img-3.png" alt="">
+                    </div>
                 </div>
                 <div>
                     <button class="bg-transparent border-0 prev">
@@ -487,13 +470,6 @@
                                 Keeping ahead and staying up to date with the very best trading technology available
                             </p>
                         </div>
-                        <div class="text-center">
-                            <div class="mb-3 mt-3">
-                                <a class="blue-btn text-decoration-none" href="#">
-                                    Learn more
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6 col-12  mt-4">
@@ -513,15 +489,6 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="text-center">
-
-                            <div class="mb-3 mt-3 text-center">
-                                <a class="blue-btn text-decoration-none" href="#">
-                                    Learn more
-                                </a>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6 col-12 mt-4">
@@ -537,14 +504,6 @@
                             <p class="normal-para my-4">
                                 Trade your local currencies against BTC and other major crypto assets
                             </p>
-                        </div>
-                        <div class="text-center">
-
-                            <div class="mb-3 mt-3">
-                                <a class="blue-btn text-decoration-none" href="#">
-                                    Learn more
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -717,7 +676,7 @@
     <section class="borderless-africa py-5">
         <div class="container my-lg-4">
             <div class="row text-center text-lg-start">
-                <div class="col-lg-6 col-12 d-flex flex-column justify-content-center">
+                <div class="text-center d-flex flex-column justify-content-center">
                     <h2 class="heading">
                         New beginnings borderless <span class="text-yellow">
                             KSA
@@ -732,12 +691,6 @@
                             Open An Account
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-6 col-12 pt-4 pt-lg-0">
-                    <iframe id="cartoonVideo" width="100%" height="315"
-                        src="https://www.youtube.com/embed/D9ghNBzcldQ" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -915,7 +868,7 @@
                                 Head Office
                             </h5>
                             <p class="normal-para mb-2">
-                                KryptoSa Ltd 8 Devonshire Square London, United Kingdom EC2M 4YF.
+                                KryptoSa  71–75 Shelton St, London WC2H 9JQ, United Kingdom.
                             </p>
                             <!-- <p>
                                 +1 123 123 123 0
@@ -939,7 +892,7 @@
                                 Branch Office
                             </h5>
                             <p class="normal-para mb-2">
-                                KryptoSa Global Network Ltd 6 Akiogun Road Victoria Island Lagos, Nigeria
+                                KryptoSa 676 Prince Sultan RD, Jeddah, Saudi Arabia
                             </p>
                             <!-- <p>
                                 +1 123 123 123 0
@@ -962,7 +915,9 @@
                                 Main Office
                             </h5>
                             <p class="normal-para mb-2">
-                                KryptoSa Ltd Ghana 48 Sekou Toure Street, North Ridge, Accra Ghana
+                                KryptoSa 6318 <br>
+                                Emaar Square, Building 4 <br>
+                                Sheikh Mohammed bin Rashid Blvd Dubai - United Arab Emirates
                             </p>
                             <!-- <p>
                                 +1 123 123 123 0
@@ -1166,11 +1121,11 @@
                             alt="">
                     </div>
                     <p class="normal-para my-4">
-                        KryptoSa is a KSAn-focused digital assets exchange where fiat meets cryptocurrency. In a
+                        KryptoSa is a KSA-focused digital assets exchange where fiat meets cryptocurrency. In a
                         post-Brexit and post-pandemic world, KryptoSa makes it easier to buy, sell and transfer digital
                         assets across KSA, South East Asia, and Western Europe.
                     </p>
-                    <p class="normal-para">
+                    {{-- <p class="normal-para">
                         <a href="#" class="footer-link text-decoration-none">
                             Terms of
                             Service</a>
@@ -1179,7 +1134,7 @@
                             Privacy Policy</a>
                         |
                         <a href="#" class="footer-link text-decoration-none">Complaints Policy</a>
-                    </p>
+                    </p> --}}
                 </div>
             </div>
             <div>
@@ -1194,8 +1149,7 @@
             <div class="modal-content ">
                 <div class="modal-body ">
                     <iframe id="koin-koin-video" width="100%" class="h-90vh"
-                        src="https://www.youtube.com/embed/D9ghNBzcldQ" title="YouTube video player"
-                        frameborder="0"
+                        src="https://www.youtube.com/embed/D9ghNBzcldQ" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -1204,16 +1158,10 @@
     </div>
 
     <script src="{{ asset('') }}assets/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="{{ asset('') }}assets/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="{{ asset('') }}assets/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-    <script src="./assets/js/tilt.js"></script>
-    <script src="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.js"
-        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="{{ asset('') }}assets/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('') }}assets/js/tilt.js"></script>
+    <script src="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
     <script>
         $(document).ready(function() {
             $('.slick-sliderrrr').slick({
@@ -1325,12 +1273,10 @@
         }
     </script>
 
-
-
-
     {{-- Chat popup  --}}
     {{-- <script src="//code.tidio.co/5ufndcjekwi1ilypqm3ctzqoamall6aa.js" async></script> --}}
 
+    {{-- Contact US --}}
     <script>
         $(document).ready(function() {
             $("#contact-us-form").submit(function(e) {

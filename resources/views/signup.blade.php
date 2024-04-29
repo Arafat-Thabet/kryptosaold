@@ -10,9 +10,7 @@
 <link href="{{ asset('') }}assets/styles/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="./assets/styles/style.css">
 
-<!-- Custom Theme files -->
 <link href="{{ asset('assets/styles/signup.css') }}" rel="stylesheet" type="text/css" media="all" />
-<!-- //Custom Theme files -->
 <!-- web font -->
 <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
 <!-- //web font -->
@@ -60,5 +58,14 @@
 		</ul>
 	</div>
 	<!-- //main -->
+
+    <script src="{{ asset('') }}assets/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+        $(".hamburger-menu").on("click", function() {
+            $(".hamburger-menu").toggleClass("animate");
+            $("#overlay").toggleClass("overlay-active");
+            $(".koin-hero").toggleClass("mobile-view");
+        });
+    </script>
 </body>
 </html>
