@@ -40,6 +40,15 @@
     </section>
 
     <script src="{{ asset('') }}assets/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="{{ asset('') }}assets/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+        $(".hamburger-menu").on("click", function() {
+            $(".hamburger-menu").toggleClass("animate");
+            $("#overlay").toggleClass("overlay-active");
+            $(".koin-hero").toggleClass("mobile-view");
+        });
+    </script>
 </body>
 
 </html>
