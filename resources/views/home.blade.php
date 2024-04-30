@@ -396,7 +396,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-7 mx-auto col-8 mt-lg-0 mt-5 order-1 order-lg-2">
-                    <img class="w-100 js-tilt" src="./assets/images/three-mobile?v=0.01.png" alt="">
+                    <img class="w-100 js-tilt" src="./assets/images/three-mobile.png?v=0.01" alt="">
                 </div>
             </div>
         </div>
