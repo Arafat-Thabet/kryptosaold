@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick-theme.min.css?v=0.1"/>
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.css?v=0.1"/>
 
-    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.1">
+    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.02">
     <link rel="icon" type="image/x-icon" href="./logo.ico">
 
 
@@ -63,9 +63,11 @@
                 <div class="row justify-content-around">
                     <div class="col-lg-7 col-12 d-flex align-items-center order-2 mt-lg-0 mt-4 order-lg-1">
                         <div class="pe-lg-5">
-                            <h1 class="text-center main-heading">CRYPTOCURRENCY <span class="text-yellow">
-                                    MADE EASY
-                                </span> FOR EVERYONE</h1>
+                            <h1 class="text-center main-heading">Saudi Arabia’s First   <span class="text-yellow">
+                                    Cryptocurrency
+                                </span> Exchange
+                            </h1>
+
                             <p class="text-center normal-para fw-600 mt-4 mb-0 opacity-unset">Security First | Powered
                                 for A
                                 Borderless
@@ -1120,11 +1122,18 @@
                         <img height="80" class="cursor-pointer" data-tilt src="./assets/images/logo00.png"
                             alt="">
                     </div>
-                    <p class="normal-para my-4">
+                    
+                    <h2 class="text-center py-2">
+                        Saudi Arabia’s First
+                        <span class="text-yellow"> Cryptocurrency </span> 
+                        Exchange
+                    </h2>
+                    {{-- <p class="normal-para my-4">
                         KryptoSa is a Saudi Arabia-focused digital assets exchange where fiat meets cryptocurrency. In a
                         post-Brexit and post-pandemic world, KryptoSa makes it easier to buy, sell and transfer digital
                         assets across Saudi Arabia, South East Asia, and Western Europe.
-                    </p>
+                    </p> --}}
+
                     {{-- <p class="normal-para">
                         <a href="#" class="footer-link text-decoration-none">
                             Terms of
