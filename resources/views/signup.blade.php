@@ -8,9 +8,9 @@
 
 
 <link href="{{ asset('') }}assets/styles/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="./assets/styles/style.css">
+<link rel="stylesheet" href="./assets/styles/style.css?v=0.1">
 
-<link href="{{ asset('assets/styles/signup.css') }}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{ asset('assets/styles/signup.css?v=0.1') }}" rel="stylesheet" type="text/css" media="all" />
 <!-- web font -->
 <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
 <!-- //web font -->

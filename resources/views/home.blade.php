@@ -34,10 +34,10 @@
     <link href="{{ asset('') }}assets/styles/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- CAROUSEL-LINK -->
-    <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-    <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick-theme.min.css?v=0.1"/>
+    <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.css?v=0.1"/>
 
-    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css">
+    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.1">
     <link rel="icon" type="image/x-icon" href="./logo.ico">
 
 
