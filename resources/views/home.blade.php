@@ -94,9 +94,9 @@
                             <div class="position-relative phone  d-xxl-flex  ">
 
                                 <img class=" iphone-1  " data-tilt data-tilt-max="5" data-tilt-scale="1.1"
-                                    src="./assets/images/iPhone-12-Pro.png" alt="">
+                                    src="./assets/images/iPhone-12-Pro.png?v=0.01" alt="">
                                 <img data-tilt data-tilt-max="5" data-tilt-scale="1.1" class="  iphone-2 "
-                                    src="./assets/images/iPhone-12-Pro-Mockup.png" alt="">
+                                    src="./assets/images/iPhone-12-Pro-Mockup.png?v=0.01" alt="">
 
                             </div>
                         </div>
@@ -396,7 +396,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-7 mx-auto col-8 mt-lg-0 mt-5 order-1 order-lg-2">
-                    <img class="w-100 js-tilt" src="./assets/images/three-mobile.png" alt="">
+                    <img class="w-100 js-tilt" src="./assets/images/three-mobile?v=0.01.png" alt="">
                 </div>
             </div>
         </div>
@@ -596,7 +596,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-6 col-12 text-center ">
-                    <img class="w-100" src="./assets/images/trade section.png" alt="">
+                    <img class="w-100" src="./assets/images/trade section.png?v=0.01" alt="">
                 </div>
                 <div class="col-lg-6 col-12 ps-4">
                     <h3 class="heading text-center text-lg-start mt-4 mt-lg-0">
