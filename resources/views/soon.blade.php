@@ -22,7 +22,8 @@
         }
     </style>
 
-    <link href="{{ asset('') }}assets/styles/bootstrap.min.css" rel="stylesheet">
+<link href="{{ asset('') }}assets/styles/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./assets/styles/style.css?v=0.1">
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 
