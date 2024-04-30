@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="{{ asset('') }}assets/styles/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/style.css?v=0.2">
 
     <title>Features</title>
 </head>
@@ -31,6 +31,15 @@
 
 
     <script src="{{ asset('') }}assets/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="{{ asset('') }}assets/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+        $(".hamburger-menu").on("click", function() {
+            $(".hamburger-menu").toggleClass("animate");
+            $("#overlay").toggleClass("overlay-active");
+            $(".koin-hero").toggleClass("mobile-view");
+        });
+    </script>
 </body>
 
 </html>
