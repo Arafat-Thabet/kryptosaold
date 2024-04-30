@@ -69,7 +69,7 @@
                             <p class="text-center normal-para fw-600 mt-4 mb-0 opacity-unset">Security First | Powered
                                 for A
                                 Borderless
-                                KSA
+                                Saudi Arabia
                                 & A
                                 Borderless
                                 World.
@@ -679,7 +679,7 @@
                 <div class="text-center d-flex flex-column justify-content-center">
                     <h2 class="heading">
                         New beginnings borderless <span class="text-yellow">
-                            KSA
+                            Saudi Arabia
                         </span>
                     </h2>
                     <p class="normal-para my-sm-4">
@@ -1121,9 +1121,9 @@
                             alt="">
                     </div>
                     <p class="normal-para my-4">
-                        KryptoSa is a KSA-focused digital assets exchange where fiat meets cryptocurrency. In a
+                        KryptoSa is a Saudi Arabia-focused digital assets exchange where fiat meets cryptocurrency. In a
                         post-Brexit and post-pandemic world, KryptoSa makes it easier to buy, sell and transfer digital
-                        assets across KSA, South East Asia, and Western Europe.
+                        assets across Saudi Arabia, South East Asia, and Western Europe.
                     </p>
                     {{-- <p class="normal-para">
                         <a href="#" class="footer-link text-decoration-none">
