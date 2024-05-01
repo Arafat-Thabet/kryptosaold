@@ -18,3 +18,6 @@
 .skew-btn {
     transform: skewX(347deg);
 }
+.skew-text {
+    transform: unset;
+}
