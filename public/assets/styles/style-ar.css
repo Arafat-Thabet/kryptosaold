@@ -1,0 +1,20 @@
+@media (max-width: 1400px) {
+    .iphone-2 {
+        right: 15px;
+    }
+    .koin-work ul {
+        width: 750px;
+    }
+}
+@media (max-width: 1700px) {
+    .iphone-2 {
+        right: 120px;
+    }
+}
+
+[type=email], [type=number], [type=tel], [type=url] {
+    direction: rtl;
+}
+.skew-btn {
+    transform: skewX(347deg);
+}

@@ -6,9 +6,17 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/','home');
-Route::view('/comming-soon','soon')->name('comming-soon');
+Route::view('comming-soon','soon')->name('comming-soon');
 Route::view('signup','signup');
 Route::view('features','features');
+
+// ar Routes
+Route::group(['prefix' => 'ar'], function () {
+    Route::view('','ar.home');
+    Route::view('features','ar.features');
+    Route::view('comming-soon','ar.soon');
+    Route::view('signup','ar.signup');
+});
 
 Route::post('/signup', [RegisterController::class, 'store'])->name('signup');
 

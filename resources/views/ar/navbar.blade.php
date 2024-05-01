@@ -10,34 +10,34 @@
                                 <ul class="list-unstyled">
                                     <li class="py-3 overflow-hidden">
 
-                                        <a href="{{ url('/') }}" class="overlay-links">Home</a>
+                                        <a href="{{ url('/ar') }}" class="overlay-links">الرئيسية</a>
 
                                     </li>
                                     <li class="py-3 overflow-hidden">
 
-                                        <a href="{{ url('features') }}" class="overlay-links">Features</a>
+                                        <a href="{{ url('ar/features') }}" class="overlay-links">المميزات</a>
 
                                     </li>
                                     <li class="py-3 ">
 
-                                        <a href="{{ url('comming-soon') }}" class="overlay-links">About US</a>
+                                        <a href="{{ url('ar/comming-soon') }}" class="overlay-links">اعرف عنا</a>
 
                                     </li>
                                     <li class="py-3 overflow-hidden">
 
-                                        <a href="{{ url('comming-soon') }}" class="overlay-links">Download</a>
+                                        <a href="{{ url('ar/comming-soon') }}" class="overlay-links">تحميل</a>
 
                                     </li>
                                     <li class="py-3 overflow-hidden">
                                         <span class="d-inline-block">
-                                            <a href="{{ url('comming-soon') }}" class="overlay-links">Login</a>
+                                            <a href="{{ url('ar/comming-soon') }}" class="overlay-links">تسجيل الدخول</a>
                                         </span>
                                     </li>
 
                                     <li class="py-3 overflow-hidden">
 
-                                        <a href="{{ url('/signup') }}" class="overlay-links yellow-btn ">
-                                            Sign up
+                                        <a href="{{ url('ar/signup') }}" class="overlay-links yellow-btn ">
+                                            انشاء حساب
                                         </a>
 
                                     </li>
@@ -50,7 +50,7 @@
             <div class="container ">
                 <div class="nav-quantum d-flex align-items-center justify-content-between">
                     <a class="navbar-brand" href="/">
-                        <img height="50" class="nav-logo" data-tilt src="./assets/images/logo00.png" alt="logo-img">
+                        <img height="50" class="nav-logo" data-tilt src="{{ asset('') }}assets/images/logo00.png" alt="logo-img">
                     </a>
 
                     <div class="d-flex align-items-center">
@@ -141,7 +141,7 @@
                         </li>
                         
                         <div class="me-3 cursor-pointer">
-                            <a class="fs-4 text-decoration-none text-white" href="{{ url('/ar') }}">العربية</a>
+                            <a class="fs-4 text-decoration-none text-white" href="{{ url('/') }}">EN</a>
                         </div>
 
                         <!-- Toggle Button nav -->
@@ -164,7 +164,7 @@
     <nav class="navbar navbar-expand-lg d-none d-lg-flex navbar-light  py-lg-2">
         <div class="container pb-3 pb-xxxl-0 nav-container center">
             <a class="navbar-brand" href="/">
-                <img height="80" class="nav-logo" data-tilt src="./assets/images/logo00.png" alt="">
+                <img height="80" class="nav-logo" data-tilt src="{{ asset('') }}assets/images/logo00.png" alt="">
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -176,19 +176,19 @@
                 <ul class="navbar-nav ms-auto new align-items-center">
 
                     <li class="nav-item me-lg-4 pe-lg-3">
-                        <a class="nav-link nav-links actives" href="{{ url('/') }}">Home</a>
+                        <a class="nav-link nav-links actives" href="{{ url('/ar') }}">الرئيسية</a>
                     </li>
                     <li class="nav-item me-lg-4 pe-lg-3">
-                        <a class="nav-link nav-links" href="{{ url('features') }}">Features</a>
+                        <a class="nav-link nav-links" href="{{ url('ar/features') }}">المميزات</a>
                     </li>
                     <li class="nav-item me-lg-4 pe-lg-3">
-                        <a class="nav-link nav-links" href="{{ url('/comming-soon') }}">About US</a>
+                        <a class="nav-link nav-links" href="{{ url('ar/comming-soon') }}">اعرف عنا</a>
                     </li>
                     <li class="nav-item me-lg-4 pe-lg-3">
-                        <a class="nav-link nav-links" href="{{ url('/comming-soon') }}">Download</a>
+                        <a class="nav-link nav-links" href="{{ url('ar/comming-soon') }}">تحميل</a>
                     </li>
                     <li class="nav-item me-lg-4 pe-lg-3">
-                        <a class="nav-link nav-links" href="{{ url('/comming-soon') }}">Login</a>
+                        <a class="nav-link nav-links" href="{{ url('ar/comming-soon') }}">تسجيل الدخول</a>
                     </li>
                     <li class="nav-item  pe-lg-3">
                         <div onclick="myFunction()">
@@ -236,21 +236,18 @@
                     </li>
                     <li class="nav-item  pe-lg-3">
                         <div class=" cursor-pointer">
-                            <a class="fs-4 text-decoration-none text-white" href="{{ url('/ar') }}">العربية</a>
+                            <a class="fs-4 text-decoration-none text-white" href="{{ url('/') }}">English</a>
                         </div>
                     </li>
                     <li class="nav-item ms-lg-3 mt-3 mt-lg-0 ">
-                        <a class="yellow-btn text-decoration-none" href="{{ url('signup') }}">
-                            Sign up
+                        <a class="yellow-btn text-decoration-none" href="{{ url('ar/signup') }}">
+                            انشاء حساب
                         </a>
-
                     </li>
 
                 </ul>
 
             </div>
-
         </div>
     </nav>
-
 </div>
