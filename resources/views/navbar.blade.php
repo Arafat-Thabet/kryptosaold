@@ -141,7 +141,7 @@
                         </li>
                         
                         <div class="me-3 cursor-pointer">
-                            <a class="fs-4 text-decoration-none text-white" href="{{ url('/ar') }}">العربية</a>
+                            <a class="fs-5 text-decoration-none text-white" href="{{ url('/ar') }}">العربية</a>
                         </div>
 
                         <!-- Toggle Button nav -->
@@ -236,7 +236,7 @@
                     </li>
                     <li class="nav-item  pe-lg-3">
                         <div class=" cursor-pointer">
-                            <a class="fs-4 text-decoration-none text-white" href="{{ url('/ar') }}">العربية</a>
+                            <a class="fs-5 text-decoration-none text-white" href="{{ url('/ar') }}">العربية</a>
                         </div>
                     </li>
                     <li class="nav-item ms-lg-3 mt-3 mt-lg-0 ">

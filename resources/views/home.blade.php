@@ -106,6 +106,33 @@
             </div>
         </div>
     </section>
+
+    <section class="borderless-africa py-5">
+        <div class="container my-lg-4">
+            <div class="row text-center text-lg-start">
+                <div class="col-lg-6 text-center d-flex flex-column justify-content-center">
+                    <h2 class="heading">
+                        New beginnings borderless <span class="text-yellow">
+                            Saudi Arabia
+                        </span>
+                    </h2>
+                    <p class="normal-para my-sm-4">
+                        KryptoSa’s continuing mission is to bolster small businesses and empower individuals using
+                        blockchain technology
+                    </p>
+                    <div class="mt-lg-5 mb-4 mt-3">
+                        <a href="{{ url('signup') }}" class="blue-btn text-decoration-none">
+                            Open An Account
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <video autoplay muted loop class="vid" src="{{ asset('assets/videos/Video 01.mp4') }}"></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="koin-work py-5 position-relative">
         <div class="container mb-lg-5">
             <p class="heading text-center mb-4 pb-3">How it works </p>
@@ -154,7 +181,7 @@
                 <div class="tab-pane fade show active" id="step-1" role="tabpanel" aria-labelledby="step-1-tab">
                     <div class="row mt-lg-5 mt-3 justify-content-between text-center text-lg-start">
                         <div class="col-lg-6 col-12">
-                            <img class="w-100" src="./assets/images/step-1-img.png" alt="">
+                            <img class="w-100" src="./assets/images/step-1-img.png?v=0.01" alt="">
                         </div>
                         <div class="col-lg-5 col-12 d-flex justify-content-center flex-column">
                             <div class="text-center d-md-none my-3">
@@ -175,7 +202,7 @@
                 <div class="tab-pane fade" id="step-2" role="tabpanel" aria-labelledby="step-2-tab">
                     <div class="row mt-lg-5  mt-3 justify-content-between text-center text-lg-start">
                         <div class="col-lg-6">
-                            <img class="w-100" src="./assets/images/step2 1.png" alt="">
+                            <img class="w-100" src="./assets/images/step2 1.png?v=0.01" alt="">
                         </div>
                         <div class="col-lg-5 d-flex justify-content-center flex-column">
                             <div class="text-center d-md-none my-3">
@@ -194,7 +221,7 @@
                 <div class="tab-pane fade" id="step-3" role="tabpanel" aria-labelledby="step-3-tab">
                     <div class="row mt-lg-5 mt-3 justify-content-between text-center text-lg-start">
                         <div class="col-lg-6">
-                            <img class="w-100" src="./assets/images/step3 1.png" alt="">
+                            <img class="w-100" src="./assets/images/step3 1.png?v=0.01" alt="">
                         </div>
                         <div class="col-lg-5 d-flex justify-content-center flex-column">
                             <div class="text-center d-md-none my-3">
@@ -212,7 +239,7 @@
                 <div class="tab-pane fade" id="step-4" role="tabpanel" aria-labelledby="step-4-tab">
                     <div class="row mt-lg-5 mt-3 justify-content-between text-center text-lg-start">
                         <div class="col-lg-6">
-                            <img class="w-100" src="./assets/images/step4 1.png" alt="">
+                            <img class="w-100" src="./assets/images/step4 1.png?v=0.01" alt="">
                         </div>
                         <div class="col-lg-5 d-flex justify-content-center flex-column">
                             <div class="text-center d-md-none my-3">
@@ -231,7 +258,7 @@
                 <div class="tab-pane fade" id="step-5" role="tabpanel" aria-labelledby="step-5-tab">
                     <div class="row mt-lg-5 mt-3 justify-content-between text-center text-lg-start">
                         <div class="col-lg-6">
-                            <img class="w-100" src="./assets/images/step5 1.png" alt="">
+                            <img class="w-100" src="./assets/images/step5 1.png?v=0.01" alt="">
                         </div>
                         <div class="col-lg-5 d-flex justify-content-center flex-column">
                             <div class="text-center d-md-none my-3">
@@ -596,7 +623,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-6 col-12 text-center ">
-                    <img class="w-100" src="./assets/images/trade section.png?v=0.01" alt="">
+                    <img class="w-100" src="./assets/images/trade section.png?v=0.02" alt="">
                 </div>
                 <div class="col-lg-6 col-12 ps-4">
                     <h3 class="heading text-center text-lg-start mt-4 mt-lg-0">
@@ -667,29 +694,6 @@
                     </div>
                     <div class="mt-4 text-center text-lg-start">
                         <a class="blue-btn text-decoration-none" href="{{ url('signup') }}">
-                            Open An Account
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="borderless-africa py-5">
-        <div class="container my-lg-4">
-            <div class="row text-center text-lg-start">
-                <div class="text-center d-flex flex-column justify-content-center">
-                    <h2 class="heading">
-                        New beginnings borderless <span class="text-yellow">
-                            Saudi Arabia
-                        </span>
-                    </h2>
-                    <p class="normal-para my-sm-4">
-                        KryptoSa’s continuing mission is to bolster small businesses and empower individuals using
-                        blockchain technology
-                    </p>
-                    <div class="mt-lg-5 mb-4 mt-3">
-                        <a href="{{ url('signup') }}" class="blue-btn text-decoration-none">
                             Open An Account
                         </a>
                     </div>
@@ -931,7 +935,7 @@
         </div>
     </section>
 
-    <section class="footer-section  position-relative">
+    <section class="footer-section py-4 position-relative">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-2 col-sm-4 col-6 mt-3 text-center">
@@ -1111,7 +1115,7 @@
                             </a>
                         </li>
                         <li class="my-2">
-                            <a class="footer-link" href="#">
+                            <a class="footer-link" href="https://www.instagram.com/kryptosa">
                                 Instagram
                             </a>
                         </li>

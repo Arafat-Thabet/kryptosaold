@@ -23,7 +23,7 @@ body {
   --color-white: #ffffff;
   --color-blue: #0cc78b;
   --color-yellow: #0ee9a2;
-  --color-light-blue: #f6f7fb;
+  --color-light-blue: #ecebf9cc;
 }
 
 @font-face {
@@ -1768,4 +1768,9 @@ input[type="number"] {
   .carousel .next {
     display: none !important;
   }
+}
+
+.vid {
+  width: 278px;
+  height: 579px;
 }
