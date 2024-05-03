@@ -762,7 +762,7 @@
                                     <div class="accordion-body ">
                                         <p class="accordion-para normal-para mt-2">
                                             Yes we do, KryptoSa offers a robust OTC service, simple message us at
-                                            supportKryptosa.com and we will let you know if you are eligible or not.
+                                            Support@Kryptosa.com and we will let you know if you are eligible or not.
                                         </p>
                                     </div>
                                 </div>
@@ -781,7 +781,7 @@
                                         <p class="accordion-para mt-2 normal-para">
                                             Yes you can, you can withdraw your crypto to another wallet directly. If you
                                             have any issues with this process- email our support team -
-                                            supportKryptosa.com
+                                            Support@Kryptosa.com
                                         </p>
 
                                     </div>
