@@ -101,7 +101,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="borderless-africa py-5">
         <div class="container my-lg-4">
             <div class="row text-center text-lg-start">
@@ -798,7 +798,8 @@
                             <input class="normal-para contact-input" type="text" name="name" id="name"
                                 required placeholder="الاسم" />
                             <br>
-                            <input class="normal-para contact-input" type="email" name="email" id="email"  required placeholder="عنوان الايميل" />
+                            <input class="normal-para contact-input" type="email" name="email" id="email"
+                                required placeholder="عنوان الايميل" />
                             <br>
                             <input class="normal-para contact-input" type="text" name="subject" id="subject"
                                 required placeholder="الموضوع" />
@@ -1100,40 +1101,28 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-8 col-12 text-center mt-5 pb-3">
-                    <div class="text-center">
-                        <img height="80" class="cursor-pointer" data-tilt src="{{ asset('') }}assets/images/logo00.png"
-                            alt="">
-                    </div>
-
-                    <h2 class="text-center py-2">أول منصة <span class="text-yellow">
-                            للعملات المشفرة
-                        </span>في المملكة العربية السعودية
-                    </h2>
-                    {{-- <p class="normal-para my-4">
-                        KryptoSa is a Saudi Arabia-focused digital assets exchange where fiat meets cryptocurrency. In a
-                        post-Brexit and post-pandemic world, KryptoSa makes it easier to buy, sell and transfer digital
-                        assets across Saudi Arabia, South East Asia, and Western Europe.
-                    </p> --}}
-
-                    {{-- <p class="normal-para">
-                        <a href="#" class="footer-link text-decoration-none">
-                            Terms of
-                            Service</a>
-                        |
-                        <a href="#" class="footer-link text-decoration-none">
-                            Privacy Policy</a>
-                        |
-                        <a href="#" class="footer-link text-decoration-none">Complaints Policy</a>
-                    </p> --}}
-                </div>
             </div>
-            <div>
+            {{-- <div>
                 <img class="footer-circle" src="./assets/images/Ellipse 5 (1).png" alt="">
                 <img class="footer-orange" src="./assets/images/engineer-orange-circle.png" alt="">
-            </div>
+            </div> --}}
         </div>
     </section>
+
+    <div class="bg-black col-12 col-lg-8 pb-3 text-center text-white w-100">
+        <div class="col-lg-8 col-12 text-center pb-3">
+            <div class="text-center">
+                <img height="80" class="cursor-pointer" data-tilt
+                    src="{{ asset('') }}assets/images/logo00.png" alt="">
+            </div>
+
+            <h2 class="text-center py-2">أول منصة <span class="text-yellow">
+                    للعملات المشفرة
+                </span>في المملكة العربية السعودية
+            </h2>
+        </div>
+    </div>
+
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered koin-video w-100 px-3 ">

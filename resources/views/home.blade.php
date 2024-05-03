@@ -34,8 +34,8 @@
     <link href="{{ asset('') }}assets/styles/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- CAROUSEL-LINK -->
-    <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick-theme.min.css?v=0.1"/>
-    <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.css?v=0.1"/>
+    <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick-theme.min.css?v=0.1" />
+    <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.css?v=0.1" />
 
     <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.3">
     <link rel="icon" type="image/x-icon" href="./logo.ico">
@@ -63,7 +63,7 @@
                 <div class="row justify-content-around">
                     <div class="col-lg-7 col-12 d-flex align-items-center order-2 mt-lg-0 mt-4 order-lg-1">
                         <div class="pe-lg-5">
-                            <h1 class="text-center main-heading">Saudi Arabia’s First   <span class="text-yellow">
+                            <h1 class="text-center main-heading">Saudi Arabia’s First <span class="text-yellow">
                                     Cryptocurrency
                                 </span> Exchange
                             </h1>
@@ -874,7 +874,7 @@
                                 Head Office
                             </h5>
                             <p class="normal-para mb-2">
-                                KryptoSa  71–75 Shelton St, London WC2H 9JQ, United Kingdom.
+                                KryptoSa 71–75 Shelton St, London WC2H 9JQ, United Kingdom.
                             </p>
                             <!-- <p>
                                 +1 123 123 123 0
@@ -935,7 +935,7 @@
         </div>
     </section>
 
-    <section class="footer-section py-4 position-relative">
+    <section class="footer-section pt-4 position-relative">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-2 col-sm-4 col-6 mt-3 text-center">
@@ -1121,41 +1121,26 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-8 col-12 text-center mt-5 pb-3">
-                    <div class="text-center">
-                        <img height="80" class="cursor-pointer" data-tilt src="./assets/images/logo00.png"
-                            alt="">
-                    </div>
-                    
-                    <h2 class="text-center py-2">
-                        Saudi Arabia’s First
-                        <span class="text-yellow"> Cryptocurrency </span> 
-                        Exchange
-                    </h2>
-                    {{-- <p class="normal-para my-4">
-                        KryptoSa is a Saudi Arabia-focused digital assets exchange where fiat meets cryptocurrency. In a
-                        post-Brexit and post-pandemic world, KryptoSa makes it easier to buy, sell and transfer digital
-                        assets across Saudi Arabia, South East Asia, and Western Europe.
-                    </p> --}}
-
-                    {{-- <p class="normal-para">
-                        <a href="#" class="footer-link text-decoration-none">
-                            Terms of
-                            Service</a>
-                        |
-                        <a href="#" class="footer-link text-decoration-none">
-                            Privacy Policy</a>
-                        |
-                        <a href="#" class="footer-link text-decoration-none">Complaints Policy</a>
-                    </p> --}}
-                </div>
             </div>
-            <div>
+            {{-- <div>
                 <img class="footer-circle" src="./assets/images/Ellipse 5 (1).png" alt="">
                 <img class="footer-orange" src="./assets/images/engineer-orange-circle.png" alt="">
-            </div>
+            </div> --}}
         </div>
     </section>
+
+    <div class="bg-black col-12 col-lg-8 pb-3 text-center text-white w-100">
+        <div class="text-center">
+            <img height="80" class="cursor-pointer" data-tilt src="./assets/images/logo00.png" alt="">
+        </div>
+
+        <h2 class="text-center py-2">
+            Saudi Arabia’s First
+            <span class="text-yellow"> Cryptocurrency </span>
+            Exchange
+        </h2>
+    </div>
+    
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered koin-video w-100 px-3 ">
