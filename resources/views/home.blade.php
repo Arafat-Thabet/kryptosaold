@@ -1094,7 +1094,7 @@
                             </a>
                         </li>
                         <li class="my-2">
-                            <a class="footer-link" href="#">
+                            <a class="footer-link" href="https://twitter.com/sa_krypto">
                                 Twitter
                             </a>
                         </li>
