@@ -938,34 +938,43 @@
     <section class="footer-section pt-4 position-relative">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-2 col-sm-4 col-6 mt-3 text-center">
+                <div class="col-lg-1 col-sm-4 col-6 mt-3 text-center">
                     <ul class="list-unstyled">
                         <span class="footer-head">
-                            Exchange services
+                            Social
+
+
                         </span>
                         <li class="mb-2 mt-3">
                             <a class="footer-link" href="#">
-                                Login
+                                Reddit
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a class="footer-link" href="https://twitter.com/sa_krypto">
+                                Twitter
                             </a>
                         </li>
                         <li class="my-2">
                             <a class="footer-link" href="#">
-                                Trade
-                            </a>
-                        </li>
-                        <li class="my-2">
-                            <a class="footer-link" href="{{ url('signup') }}">
-                                sign up
+                                Facebook
 
                             </a>
                         </li>
                         <li class="my-2">
                             <a class="footer-link" href="#">
-                                Cash deposit
+                                Linkedin
                             </a>
                         </li>
                         <li class="my-2">
-                            <div class="footer-link" id="google_translate_element"></div>
+                            <a class="footer-link" href="#">
+                                Telegram
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a class="footer-link" href="https://www.instagram.com/kryptosa">
+                                Instagram
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -1084,43 +1093,34 @@
 
                     </ul>
                 </div>
-                <div class="col-lg-1 col-sm-4 col-6 mt-3 text-center">
+                <div class="col-lg-2 col-sm-4 col-6 mt-3 text-center">
                     <ul class="list-unstyled">
                         <span class="footer-head">
-                            Social
-
-
+                            Exchange services
                         </span>
                         <li class="mb-2 mt-3">
                             <a class="footer-link" href="#">
-                                Reddit
-                            </a>
-                        </li>
-                        <li class="my-2">
-                            <a class="footer-link" href="https://twitter.com/sa_krypto">
-                                Twitter
+                                Login
                             </a>
                         </li>
                         <li class="my-2">
                             <a class="footer-link" href="#">
-                                Facebook
+                                Trade
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a class="footer-link" href="{{ url('signup') }}">
+                                sign up
 
                             </a>
                         </li>
                         <li class="my-2">
                             <a class="footer-link" href="#">
-                                Linkedin
+                                Cash deposit
                             </a>
                         </li>
                         <li class="my-2">
-                            <a class="footer-link" href="#">
-                                Telegram
-                            </a>
-                        </li>
-                        <li class="my-2">
-                            <a class="footer-link" href="https://www.instagram.com/kryptosa">
-                                Instagram
-                            </a>
+                            <div class="footer-link" id="google_translate_element"></div>
                         </li>
                     </ul>
                 </div>
