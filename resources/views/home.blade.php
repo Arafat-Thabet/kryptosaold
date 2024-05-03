@@ -107,7 +107,7 @@
         </div>
     </section>
 
-    <section class="borderless-africa py-5">
+    <section class="borderless-africa py-5" style="background-color: #edebfa">
         <div class="container my-lg-4">
             <div class="row text-center text-lg-start">
                 <div class="col-lg-6 text-center d-flex flex-column justify-content-center">
