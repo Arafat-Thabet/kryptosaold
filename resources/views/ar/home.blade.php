@@ -948,6 +948,9 @@
                                 ايداع نقدي
                             </a>
                         </li>
+                        <li class="my-2">
+                            <div class="footer-link" id="google_translate_element"></div>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-sm-4 col-6 mt-3 text-center">
@@ -1110,17 +1113,15 @@
     </section>
 
     <div class="bg-black col-12 col-lg-8 pb-3 text-center text-white w-100">
-        <div class="col-lg-8 col-12 text-center pb-3">
-            <div class="text-center">
-                <img height="80" class="cursor-pointer" data-tilt
-                    src="{{ asset('') }}assets/images/logo00.png" alt="">
-            </div>
-
-            <h2 class="text-center py-2">أول منصة <span class="text-yellow">
-                    للعملات المشفرة
-                </span>في المملكة العربية السعودية
-            </h2>
+        <div class="text-center">
+            <img height="80" class="cursor-pointer" data-tilt
+                src="{{ asset('') }}assets/images/logo00.png" alt="">
         </div>
+
+        <h2 class="text-center py-2">أول منصة <span class="text-yellow">
+                للعملات المشفرة
+            </span>في المملكة العربية السعودية
+        </h2>
     </div>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -1319,6 +1320,15 @@
                 });
             });
         });
+    </script>
+
+
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script>
+        function googleTranslateElementInit(selectedLanguage) {
+            new google.translate.TranslateElement({ pageLanguage: 'ar', includedLanguages: selectedLanguage, layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
+        }
     </script>
 
 </body>

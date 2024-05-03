@@ -964,6 +964,9 @@
                                 Cash deposit
                             </a>
                         </li>
+                        <li class="my-2">
+                            <div class="footer-link" id="google_translate_element"></div>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-sm-4 col-6 mt-3 text-center">
@@ -1140,7 +1143,7 @@
             Exchange
         </h2>
     </div>
-    
+
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered koin-video w-100 px-3 ">
@@ -1338,6 +1341,18 @@
         });
     </script>
 
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+
+    <script>
+        function googleTranslateElementInit(selectedLanguage) {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: selectedLanguage,
+                layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+            }, 'google_translate_element');
+        }
+    </script>
 </body>
 
 </html>
