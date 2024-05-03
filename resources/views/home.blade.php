@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <video autoplay muted loop class="vid" src="{{ asset('assets/videos/Video 01.mp4') }}"></video>
+                    <video autoplay muted loop class="vid" src="{{ asset('assets/videos/video 01.mp4') }}"></video>
                 </div>
             </div>
         </div>
