@@ -1099,9 +1099,6 @@
                                 ايداع نقدي
                             </a>
                         </li>
-                        <li class="my-2">
-                            <div class="footer-link" id="google_translate_element"></div>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -1320,15 +1317,6 @@
                 });
             });
         });
-    </script>
-
-
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-    <script>
-        function googleTranslateElementInit(selectedLanguage) {
-            new google.translate.TranslateElement({ pageLanguage: 'ar', includedLanguages: selectedLanguage, layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
-        }
     </script>
 
 </body>
