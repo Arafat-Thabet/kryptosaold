@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick-theme.min.css?v=0.1" />
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.css?v=0.1" />
 
-    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.3">
+    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.4">
 
     <!-- Bootstrap RTL CSS -->
     <link href="{{ asset('') }}assets/styles/bootstrap.rtl.min.css" rel="stylesheet">
@@ -102,7 +102,7 @@
         </div>
     </section>
 
-    <section class="borderless-africa py-5"  style="background-color: #edebfa">
+    <section class="borderless-africa py-5">
         <div class="container my-lg-4">
             <div class="row text-center text-lg-start">
                 <div class="col-lg-6 text-center d-flex flex-column justify-content-center">
@@ -122,7 +122,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <video autoplay muted loop class="vid" src="{{ asset('assets/videos/video 01.mp4') }}"></video>
+                    <video autoplay muted loop class="vid" src="{{ asset('assets/images/kryptosa.MP4') }}"></video>
                 </div>
             </div>
         </div>
