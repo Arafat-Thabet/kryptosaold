@@ -40,8 +40,6 @@
     <!-- Bootstrap RTL CSS -->
     <link href="{{ asset('') }}assets/styles/bootstrap.rtl.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('') }}assets/styles/style-ar.css?v=0.01">
-    <link rel="icon" type="image/x-icon" href="./logo.ico">
-
 
     <title>كربتو السعودية</title>
 </head>
@@ -1120,20 +1118,6 @@
             </span>في المملكة العربية السعودية
         </h2>
         <p class="text-center mb-0"><span>كل الحقوق محفوظة </span>©KrytpoSA© - 66 inc</p>
-    </div>
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered koin-video w-100 px-3 ">
-            <div class="modal-content ">
-                <div class="modal-body ">
-                    <iframe id="koin-koin-video" width="100%" class="h-90vh"
-                        src="https://www.youtube.com/embed/D9ghNBzcldQ" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
     </div>
 
     <script src="{{ asset('') }}assets/libs/jquery/3.6.0/jquery.min.js"></script>

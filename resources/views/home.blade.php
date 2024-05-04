@@ -38,8 +38,6 @@
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.css?v=0.1" />
 
     <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.4">
-    <link rel="icon" type="image/x-icon" href="./logo.ico">
-
 
     <title>KryptoSa : Buy and Sell digital tokens the easy way</title>
 </head>
@@ -1140,20 +1138,6 @@
             Exchange
         </h2>
         <p class="text-center mb-0"> All rights reserved KryptoSA© 66inc© </p>
-    </div>
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered koin-video w-100 px-3 ">
-            <div class="modal-content ">
-                <div class="modal-body ">
-                    <iframe id="koin-koin-video" width="100%" class="h-90vh"
-                        src="https://www.youtube.com/embed/D9ghNBzcldQ" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
     </div>
 
     <script src="{{ asset('') }}assets/libs/jquery/3.6.0/jquery.min.js"></script>
