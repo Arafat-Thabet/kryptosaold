@@ -1,14 +1,12 @@
 @media (max-width: 1400px) {
-    .iphone-2 {
-        right: 15px;
-    }
     .koin-work ul {
         width: 750px;
     }
 }
-@media (max-width: 1700px) {
+
+@media (min-width: 1401px) {
     .iphone-2 {
-        right: 120px;
+        right: -121px;
     }
 }
 

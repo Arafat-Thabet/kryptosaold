@@ -35,11 +35,11 @@
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick-theme.min.css?v=0.1" />
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.css?v=0.1" />
 
-    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.4">
+    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.5">
 
     <!-- Bootstrap RTL CSS -->
     <link href="{{ asset('') }}assets/styles/bootstrap.rtl.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style-ar.css?v=0.01">
+    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style-ar.css?v=0.02">
 
     <title>كربتو السعودية</title>
 </head>
@@ -61,20 +61,20 @@
             <div class="container text-white py-xl-5 center">
 
                 <div class="row justify-content-around">
-                    <div class="col-lg-7 col-12 d-flex align-items-center order-2 mt-lg-0 mt-4 order-lg-1">
+                    <div class="col-lg-7 col-12 d-flex align-items-center order-2 mt-lg-0 mt-2 order-lg-1">
                         <div class="pe-lg-5">
                             <h1 class="text-center main-heading">أول منصة <span class="text-yellow">
                                     للعملات المشفرة
                                 </span>في المملكة العربية السعودية
                             </h1>
 
-                            <p class="text-center normal-para fw-600 mt-4 mb-0 opacity-unset">
+                            <p class="text-center normal-para fw-600 mt-lg-4 mb-0 opacity-unset">
                                 الأمن أولاً | مدعومة للسعودية وللعالم بلا حدود.
                             </p>
-                            <p class="text-center normal-para fw-600 mb-4 opacity-unset">
+                            <p class="text-center normal-para fw-600 mb-lg-4 opacity-unset">
                                 نحن نسعى لتحقيق الشمول المالي من خلال الوصول الميسور والبسيط إلى التكنولوجيا المالية.
                             </p>
-                            <div class="d-flex justify-content-center pt-3 mb-5">
+                            <div class="d-flex justify-content-center pt-lg-3 mb-5">
                                 <a class="yellow-btn text-decoration-none" href="{{ url('ar/signup') }}">
                                     افتح حساب تداول
                                 </a>

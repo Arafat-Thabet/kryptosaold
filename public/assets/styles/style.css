@@ -47,22 +47,22 @@ body {
 @media (max-width: 991.98px) {
   :root {
     --text-xs: 12px;
-    --text-sm: 18px;
+    --text-sm: 16px;
     --text-md: 23px;
     --text-lg: 28px;
     --text-xl: 48px;
-    --text-xxl: 72px;
+    --text-xxl: 46px;
   }
 }
 
 @media (max-width: 767.98px) {
   :root {
     --text-xs: 12px;
-    --text-sm: 18px;
+    --text-sm: 14px;
     --text-md: 23px;
     --text-lg: 24px;
     --text-xl: 48px;
-    --text-xxl: 55px;
+    --text-xxl: 39px;
   }
 }
 
@@ -1773,4 +1773,28 @@ input[type="number"] {
 .vid {
   width: 278px;
   height: 579px;
+}
+@media (max-width: 991.98px) {
+  .iphone-1 {
+    max-width: 160px;
+  }
+  .iphone-2 {
+    max-width: 162px;
+    right: 66px;
+    top: -30px;
+  }
+  .center {
+    top: 74%;
+  }
+}
+
+@media (max-width: 768px) {
+  .iphone-2{
+    right: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .center {
+    top: 60%;
+  }
 }
