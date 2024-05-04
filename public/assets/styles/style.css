@@ -1420,7 +1420,14 @@ input[type="number"] {
     right: 15px;
   }
 }
-
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .center-tablet {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+  }
+}
 @media (max-width: 1400px) {
   /* .bg-video-wrap {
         height: 100% !important;
@@ -1774,3 +1781,4 @@ input[type="number"] {
   width: 278px;
   height: 579px;
 }
+.all-rights-text{font-size: 11px;}

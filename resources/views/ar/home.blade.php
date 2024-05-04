@@ -39,7 +39,7 @@
 
     <!-- Bootstrap RTL CSS -->
     <link href="{{ asset('') }}assets/styles/bootstrap.rtl.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style-ar.css?v=0.01">
+    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style-ar.css?v=0.02">
 
     <title>كربتو السعودية</title>
 </head>
@@ -58,7 +58,7 @@
         <video src="./assets/images/World - 1992.mp4" loop muted autoplay></video>
         <div class="header-section">
 
-            <div class="container text-white py-xl-5 center">
+            <div class="container text-white py-xl-5 center center-tablet">
 
                 <div class="row justify-content-around">
                     <div class="col-lg-7 col-12 d-flex align-items-center order-2 mt-lg-0 mt-4 order-lg-1">
@@ -1117,7 +1117,7 @@
                 للعملات المشفرة
             </span>في المملكة العربية السعودية
         </h2>
-        <p class="text-center mb-0"><span>كل الحقوق محفوظة </span>©KrytpoSA© - 66 inc</p>
+        <p class="text-center mb-0 all-rights-text"><span>كل الحقوق محفوظة </span>©KrytpoSA© - 66 inc</p>
     </div>
 
     <script src="{{ asset('') }}assets/libs/jquery/3.6.0/jquery.min.js"></script>

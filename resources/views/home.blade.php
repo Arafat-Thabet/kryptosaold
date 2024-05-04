@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick-theme.min.css?v=0.1" />
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.css?v=0.1" />
 
-    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.4">
+    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.5">
 
     <title>KryptoSa : Buy and Sell digital tokens the easy way</title>
 </head>
@@ -53,10 +53,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         @endif
-        <video src="./assets/images/World - 1992.mp4" loop muted autoplay></video>
+        <video src="{{ asset('assets/images/World-1992.mp4') }}" loop muted autoplay></video>
         <div class="header-section">
 
-            <div class="container text-white py-xl-5 center">
+            <div class="container text-white py-xl-5 center center-tablet">
 
                 <div class="row justify-content-around">
                     <div class="col-lg-7 col-12 d-flex align-items-center order-2 mt-lg-0 mt-4 order-lg-1">
@@ -1137,7 +1137,7 @@
             <span class="text-yellow"> Cryptocurrency </span>
             Exchange
         </h2>
-        <p class="text-center mb-0"> All rights reserved KryptoSA© 66inc© </p>
+        <p class="text-center mb-0 all-rights-text"> All rights reserved KryptoSA© 66inc© </p>
     </div>
 
     <script src="{{ asset('') }}assets/libs/jquery/3.6.0/jquery.min.js"></script>
