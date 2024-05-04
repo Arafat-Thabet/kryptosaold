@@ -1129,7 +1129,7 @@
         </div>
     </section>
 
-    <div class="bg-black col-12 col-lg-8 pb-3 text-center text-white w-100">
+    <div class="bg-black col-12 col-lg-8 py-3 text-center text-white w-100">
         <div class="text-center">
             <img height="80" class="cursor-pointer" data-tilt src="./assets/images/logo00.png" alt="">
         </div>
@@ -1139,6 +1139,7 @@
             <span class="text-yellow"> Cryptocurrency </span>
             Exchange
         </h2>
+        <p class="text-center mb-0"> All rights reserved KryptoSA© 66inc© </p>
     </div>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
