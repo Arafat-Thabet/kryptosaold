@@ -39,7 +39,7 @@
 
     <!-- Bootstrap RTL CSS -->
     <link href="{{ asset('') }}assets/styles/bootstrap.rtl.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style-ar.css?v=0.02">
+    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style-ar.css?v=0.03">
 
     <title>كربتو السعودية</title>
 </head>

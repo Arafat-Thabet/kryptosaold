@@ -20,6 +20,14 @@
   
     }
   }
+@media only screen and (min-width: 820px) and (max-width: 1180px) and (orientation: portrait) {
+    .center-tablet {
+        position: absolute;
+        left: 50%;
+        top: 80%;
+        transform: translate(-50%, -50%);
+    }
+  }
 [type=email], [type=number], [type=tel], [type=url] {
     direction: rtl;
 }
