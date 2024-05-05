@@ -1,5 +1,4 @@
 .about {
-    width: 70%;
     border-radius: 20px;
 }
   .main-w3layouts {
@@ -7,4 +6,10 @@
   }
   h1 {
     letter-spacing: unset;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .about {
+      width: 70%;
+    }
   }

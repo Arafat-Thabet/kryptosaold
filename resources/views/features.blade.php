@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/styles/style.css?v=0.2">
 
     <link href="{{ asset('assets/styles/signup.css?v=0.1') }}" rel="stylesheet" type="text/css" media="all" />
-    <link href="{{ asset('assets/styles/main.css') }}" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{ asset('assets/styles/main.css?v=0.01') }}" rel="stylesheet" type="text/css" media="all" />
 
     <title>Features</title>
 </head>
