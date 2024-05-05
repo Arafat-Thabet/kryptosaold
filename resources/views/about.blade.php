@@ -24,7 +24,7 @@
 
     <!-- main -->
     <div class="main-w3layouts wrapper">
-        <h1>KryptoSA</h1>
+        <h1 class="h1">KryptoSA</h1>
         <div class="main-agileinfo about">
             <div class="agileits-top">
                 <div class="py-2">
