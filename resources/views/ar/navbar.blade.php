@@ -20,7 +20,7 @@
                                     </li>
                                     <li class="py-3 ">
 
-                                        <a href="{{ url('ar/comming-soon') }}" class="overlay-links">اعرف عنا</a>
+                                        <a href="{{ url('ar/about') }}" class="overlay-links">اعرف عنا</a>
 
                                     </li>
                                     <li class="py-3 overflow-hidden">
@@ -182,7 +182,7 @@
                         <a class="nav-link nav-links" href="{{ url('ar/features') }}">المميزات</a>
                     </li>
                     <li class="nav-item me-lg-4 pe-lg-3">
-                        <a class="nav-link nav-links" href="{{ url('ar/comming-soon') }}">اعرف عنا</a>
+                        <a class="nav-link nav-links" href="{{ url('ar/about') }}">اعرف عنا</a>
                     </li>
                     <li class="nav-item me-lg-4 pe-lg-3">
                         <a class="nav-link nav-links" href="{{ url('ar/comming-soon') }}">تحميل</a>

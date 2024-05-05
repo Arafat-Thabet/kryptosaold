@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/','home');
 Route::view('comming-soon','soon')->name('comming-soon');
+Route::view('about','about');
 Route::view('signup','signup');
 Route::view('features','features');
 
@@ -15,6 +16,7 @@ Route::group(['prefix' => 'ar'], function () {
     Route::view('','ar.home');
     Route::view('features','ar.features');
     Route::view('comming-soon','ar.soon');
+    Route::view('about','ar.about');
     Route::view('signup','ar.signup');
 });
 
