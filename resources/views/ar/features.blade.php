@@ -33,7 +33,13 @@
                         والتداول في الأصول الرقمية الرئيسية على مدار الساعة طوال أيام الأسبوع.
                     </p>
                     
-                    <p class="pt-2"><span>Support@Kryptosa.com</span> - <span>+966-7777777</span></p>
+                    {{-- <p class="pt-2"><span>Support@Kryptosa.com</span> - <span>+966-7777777</span></p> --}}
+
+                    <div class="mt-5">
+                        <a class="yellow-btn text-decoration-none text-white" style="color: #fff !important" href="{{ url('signup') }}">
+                            اعرف المزيد
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

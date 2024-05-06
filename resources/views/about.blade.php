@@ -70,7 +70,7 @@
         </ul>
 
 		
-        <p class="text-center mb-0 all-rights-text text-light fs-6"> All rights reserved KryptoSA© 66inc© </p>
+        <p class="bottom-0 fs-6 mb-3 position-absolute text-center text-light w-100"> All rights reserved KryptoSA© 66inc© </p>
     </div>
     <!-- //main -->
 

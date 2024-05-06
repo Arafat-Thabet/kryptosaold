@@ -35,7 +35,14 @@
                         24/7.
                     </p>
 
-                    <p class="pt-2"><span>Support@Kryptosa.com</span> - <span>+966-7777777</span></p>
+                    {{-- <p class="pt-2"><span>Support@Kryptosa.com</span> - <span>+966-7777777</span></p> --}}
+                    
+                    <div class="mt-5">
+                        <a class="yellow-btn text-decoration-none text-white" style="color: #fff !important" href="{{ url('signup') }}">
+                            know more
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </section>

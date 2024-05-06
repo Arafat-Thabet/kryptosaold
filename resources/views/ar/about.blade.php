@@ -66,7 +66,7 @@
         </ul>
 
 		
-        <p class="text-center mb-0 all-rights-text text-light fs-6"><span>كل الحقوق محفوظة </span>©KrytpoSA© - 66 inc</p>
+        <p class="bottom-0 fs-6 mb-3 position-absolute text-center text-light w-100"> <span>كل الحقوق محفوظة </span>©KrytpoSA© - 66 inc</p>
     </div>
     <!-- //main -->
 
