@@ -9,13 +9,20 @@ class RegisterController extends Controller
 {
     public function store(Request $request)
     {
-        $validatedData = $request->validate([
+        $request->validate([
             'first_name' => 'required|string|max:255',
             'email' => 'required|email|unique:registers',
+            'phone' => 'required|unique:registers,phone',
         ]);
 
+        
         // Create a new register instance
-        Register::create($validatedData);
+        Register::create([
+            'first_name'=> $request->first_name,
+            'last_name'=> $request->last_name,
+            'email'=> $request->email,
+            'phone'=> $request->country_code . $request->phone,
+        ]);
 
         if ($request->ar) {
             $message = 'شكرا لك، سيتم التواصل معك قريبا';

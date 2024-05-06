@@ -36,3 +36,11 @@
     transform: unset;
 }
 .all-rights-text{font-size: 11px;}
+
+.iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container {
+    right: 0;
+    left: auto;
+}
+.iti input, .iti input[type=text], .iti input[type=tel] {
+    padding-right: 36px;
+}
