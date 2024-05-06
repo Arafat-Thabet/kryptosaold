@@ -14,9 +14,9 @@
     <!-- Bootstrap RTL CSS -->
     <link href="{{ asset('') }}assets/styles/bootstrap.rtl.min.css" rel="stylesheet">
     <link href="{{ asset('') }}assets/styles/style.css?v=0.2" rel="stylesheet">
-    <link href="{{ asset('') }}assets/styles/style-ar.css" rel="stylesheet">
+    <link href="{{ asset('') }}assets/styles/style-ar.css?v=0.01" rel="stylesheet">
 
-    <link href="{{ asset('assets/styles/signup.css?v=0.1') }}" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{ asset('assets/styles/signup.css?v=0.2') }}" rel="stylesheet" type="text/css" media="all" />
     <!-- web font -->
     <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
     <!-- //web font -->
