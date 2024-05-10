@@ -168,20 +168,22 @@ body {
   background-image: url(../images/hero-img-1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  
 }
 
 .bg-video-wrap {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: -webkit-fill-available;
+  -webkit-height: -webkit-fill-available;
   height: 100vh;
 
 }
 
 .hero video {
   min-width: 100%;
-  min-height: -webkit-fill-available;
+  -webkit-min-height: -webkit-fill-available;
   min-height: 100vh;
 
   z-index: 1 !important;

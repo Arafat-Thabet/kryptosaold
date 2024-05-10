@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick-theme.min.css?v=0.1" />
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.css?v=0.1" />
 
-    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.7">
+    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.8">
 
     <!-- Bootstrap RTL CSS -->
     <link href="{{ asset('') }}assets/styles/bootstrap.rtl.min.css" rel="stylesheet">
