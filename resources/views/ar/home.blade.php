@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick-theme.min.css?v=0.1" />
     <link rel="stylesheet" href="{{ asset('') }}assets/libs/slick-carousel/1.8.1/slick.min.css?v=0.1" />
 
-    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.5">
+    <link rel="stylesheet" href="{{ asset('') }}assets/styles/style.css?v=0.7">
 
     <!-- Bootstrap RTL CSS -->
     <link href="{{ asset('') }}assets/styles/bootstrap.rtl.min.css" rel="stylesheet">
@@ -55,7 +55,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         @endif
-        <video src="./assets/images/World - 1992.mp4" loop muted autoplay></video>
+        <video src="{{ asset('assets/images/World-1992.mp4') }}" loop muted autoplay></video>
         <div class="header-section">
 
             <div class="container text-white py-xl-5 center center-tablet">

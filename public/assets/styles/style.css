@@ -174,12 +174,16 @@ body {
   position: relative;
   overflow: hidden;
   width: 100%;
+  height: -webkit-fill-available;
   height: 100vh;
+
 }
 
 .hero video {
   min-width: 100%;
+  min-height: -webkit-fill-available;
   min-height: 100vh;
+
   z-index: 1 !important;
 }
 
@@ -1518,6 +1522,9 @@ input[type="number"] {
 
   .hero {
     background-position-x: center;
+    -o-background-position-x: center;
+    -moz-background-position-x: center;
+    -webkit-background-position-x: center;
     margin-top: -35%;
     height: 100%;
   }

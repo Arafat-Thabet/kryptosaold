@@ -56,7 +56,7 @@
                     <div class="d-flex align-items-center">
                         <div class="d-flex align-items-center">
                             <a class="text-decoration-none px-1" href="#">
-                                <svg width="30" height="30" viewBox="0 0 200 200" fill="none"
+                                <svg width="25" height="25" viewBox="0 0 200 200" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M132.817 14.7388C133.213 14.7388 133.61 14.7388 134.03 14.7388C135.003 26.7644 130.413 35.7499 124.834 42.2569C119.361 48.719 111.865 54.9864 99.7424 54.0354C98.9338 42.182 103.531 33.8629 109.102 27.3709C114.269 21.3207 123.741 15.9368 132.817 14.7388Z"
@@ -68,7 +68,7 @@
 
                             </a>
                             <a class="text-decoration-none px-1" href="#">
-                                <svg width="30" height="30" viewBox="0 0 200 200" fill="none"
+                                <svg width="25" height="25" viewBox="0 0 200 200" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M164.993 87.7944L137.424 71.8711L109.2 100.095L137.422 128.318L165.087 112.342C169.401 109.721 171.975 105.142 171.975 100.095C171.975 95.0489 169.399 90.4703 164.993 87.7944Z"
@@ -96,7 +96,7 @@
                         <li class="nav-item mx-3 d-flex align-items-center pe-lg-3 py-3">
                             <div onclick="myFunction()">
                                 <div class="day cursor-pointer">
-                                    <svg fill="#0ee9a2" height="32" width="32" version="1.1" id="Capa_1"
+                                    <svg fill="#0ee9a2" height="20" width="20" version="1.1" id="Capa_1"
                                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                         viewBox="0 0 457.32 457.32" xml:space="preserve" stroke="#0ee9a2">
 
@@ -116,7 +116,7 @@
                                     </svg>
                                 </div>
                                 <div class="night cursor-pointer">
-                                    <svg width="32" height="32" viewBox="0 0 64 64"
+                                    <svg width="20" height="20" viewBox="0 0 64 64"
                                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                         aria-hidden="true" role="img" class="iconify iconify--emojione-monotone"
                                         preserveAspectRatio="xMidYMid meet" fill="#000000">
@@ -141,7 +141,7 @@
                         </li>
                         
                         <div class="me-3 cursor-pointer">
-                            <a class="fs-5 text-decoration-none text-white" href="{{ url('/') }}">EN</a>
+                            <a class="fs-7 text-decoration-none text-white" href="{{ url('/') }}">EN</a>
                         </div>
 
                         <!-- Toggle Button nav -->
@@ -193,7 +193,7 @@
                     <li class="nav-item  pe-lg-3">
                         <div onclick="myFunction()">
                             <div class="day cursor-pointer">
-                                <svg fill="#0ee9a2" height="32" width="32" version="1.1" id="Capa_1"
+                                <svg fill="#0ee9a2" height="25" width="25" version="1.1" id="Capa_1"
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                     viewBox="0 0 457.32 457.32" xml:space="preserve" stroke="#0ee9a2">
 
@@ -213,7 +213,7 @@
                                 </svg>
                             </div>
                             <div class="night cursor-pointer">
-                                <svg width="32" height="32" viewBox="0 0 64 64"
+                                <svg width="25" height="25" viewBox="0 0 64 64"
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                     aria-hidden="true" role="img" class="iconify iconify--emojione-monotone"
                                     preserveAspectRatio="xMidYMid meet" fill="#000000">
