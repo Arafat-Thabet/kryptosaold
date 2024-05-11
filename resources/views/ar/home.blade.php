@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <video autoplay muted loop class="vid" src="{{ asset('assets/images/kryptosa.MP4') }}"></video>
+                    <video class="vid" src="{{ asset('assets/images/kryptosa.MP4') }}" autoplay muted loop playsinline></video>
                 </div>
             </div>
         </div>
