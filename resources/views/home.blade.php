@@ -53,7 +53,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         @endif
-        <video src="{{ asset('assets/images/World-1992.mp4') }}" loop muted autoplay playsinline></video>
+        <video src="{{ asset('assets/images/hero-video.mp4') }}" loop muted autoplay playsinline></video>
         <div class="header-section">
 
             <div class="container text-white py-xl-5 center center-tablet">
